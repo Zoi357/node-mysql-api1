@@ -1,0 +1,23 @@
+{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "root",
+        "database": "node-mysql-api"
+    },
+    "secret":"SUPER-SECRET-KEY",
+    "emailFrom":"info@my-node-api.com",
+   "smtpOptions": {
+    "host": "smtp.ethereal.email",
+    "port": 2525,
+    "auth": {
+        "user": "alicia.ebert@ethereal.email",
+        "pass": "7x5VSVhSEaP9kHWFWy"
+    },
+    "tls": {
+        "rejectUnauthorized": false
+    }
+}
+
+}
